@@ -102,7 +102,7 @@
             get: (searchParams, prop) => searchParams.get(prop),
         });
         let value = params.q;
-        if (!value.endsWith(" reddit")){
+        if (!value.endsWith(" stackoverflow")){
             var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?q=' + value + '%20stackoverflow';
             window.location.href = newurl;
         }
@@ -112,7 +112,7 @@
             get: (searchParams, prop) => searchParams.get(prop),
         });
         let value = params.q;
-        if (!value.endsWith(" reddit")){
+        if (!value.endsWith(" youtube")){
             var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?q=' + value + '%20youtube';
             window.location.href = newurl;
         }
@@ -122,7 +122,7 @@
             get: (searchParams, prop) => searchParams.get(prop),
         });
         let value = params.q;
-        if (!value.endsWith(" reddit")){
+        if (!value.endsWith(" github")){
             var newurl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?q=' + value + '%20github';
             window.location.href = newurl;
         }
